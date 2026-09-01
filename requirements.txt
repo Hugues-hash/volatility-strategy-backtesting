@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+arch>=6.0
+matplotlib>=3.7
+# optional, only needed to refresh the price cache from Yahoo Finance
+yfinance>=0.2
+# optional, only needed to run the notebooks
+jupyterlab>=4.0
