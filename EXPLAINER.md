@@ -302,29 +302,29 @@ record.
 
 ## 12. Glossary
 
-- **Volatility** — how much a price moves, regardless of direction.
-- **Realised volatility** — a measure of how volatile a day actually was, worked out
+- **Volatility**: how much a price moves, regardless of direction.
+- **Realised volatility**: a measure of how volatile a day actually was, worked out
   after the fact. Here, the Garman-Klass estimator.
-- **Garman-Klass estimator** — a volatility measure that uses the day's open, high,
+- **Garman-Klass estimator**: a volatility measure that uses the day's open, high,
   low and close, steadier than using the close alone.
-- **HAR features** — recent volatility summarised over a day, a week and a month.
-- **GARCH / GJR-GARCH / EGARCH** — a family of models where today's volatility depends
+- **HAR features**: recent volatility summarised over a day, a week and a month.
+- **GARCH / GJR-GARCH / EGARCH**: a family of models where today's volatility depends
   on recent volatility and recent surprises. GJR and EGARCH add the leverage effect.
-- **Leverage effect** — the tendency of a fall to raise volatility more than a rise.
-- **EWMA** — a volatility estimate that fades old data out smoothly.
-- **Walk forward testing** — training only on the past and testing on unseen days.
-- **QLIKE / MSE / MAE** — ways to score how close a forecast was, lower is better.
-- **Diebold-Mariano test** — checks whether a difference in accuracy is real or luck.
-- **Volatility targeting** — sizing a position so its forecast volatility hits a chosen
+- **Leverage effect**: the tendency of a fall to raise volatility more than a rise.
+- **EWMA**: a volatility estimate that fades old data out smoothly.
+- **Walk forward testing**: training only on the past and testing on unseen days.
+- **QLIKE / MSE / MAE**: ways to score how close a forecast was, lower is better.
+- **Diebold-Mariano test**: checks whether a difference in accuracy is real or luck.
+- **Volatility targeting**: sizing a position so its forecast volatility hits a chosen
   level; hold less when it is stormy, more when it is calm.
-- **Buy and hold** — the do nothing benchmark: fully invested, never traded.
-- **Sharpe ratio** — return per unit of risk. Higher is better.
-- **Sortino ratio** — like Sharpe, but only downside counts as risk.
-- **Maximum drawdown** — the worst peak to trough fall.
-- **Calmar ratio** — return per unit of worst drawdown.
-- **Turnover** — how much trading a strategy does; more trading means more cost.
-- **Value at Risk (VaR)** — a loss line you should only breach with a set small chance.
-- **Fat tails** — extreme days happen more often than a normal bell curve predicts.
-- **Student-t** — a bell shape with heavier tails, used to model those extreme days.
-- **Kupiec test** — checks a VaR has about the right number of breaches.
-- **Christoffersen test** — checks the breaches are spread out, not clustered.
+- **Buy and hold**: the do nothing benchmark: fully invested, never traded.
+- **Sharpe ratio**: return per unit of risk. Higher is better.
+- **Sortino ratio**: like Sharpe, but only downside counts as risk.
+- **Maximum drawdown**: the worst peak to trough fall.
+- **Calmar ratio**: return per unit of worst drawdown.
+- **Turnover**: how much trading a strategy does; more trading means more cost.
+- **Value at Risk (VaR)**: a loss line you should only breach with a set small chance.
+- **Fat tails**: extreme days happen more often than a normal bell curve predicts.
+- **Student-t**: a bell shape with heavier tails, used to model those extreme days.
+- **Kupiec test**: checks a VaR has about the right number of breaches.
+- **Christoffersen test**: checks the breaches are spread out, not clustered.
